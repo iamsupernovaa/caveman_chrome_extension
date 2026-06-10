@@ -161,7 +161,7 @@ It only uses Chrome `storage` to remember the selected mode.
 ### 1. Download or clone this repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/caveman.git
+https://github.com/iamsupernovaa/caveman_chrome_extension.git
 ```
 
 ### 2. Open Chrome Extensions
