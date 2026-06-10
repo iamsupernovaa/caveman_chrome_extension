@@ -9,19 +9,19 @@ It prepends a brevity instruction to your prompt at send time, so the model answ
 Brain still big. Mouth small.
 
 ---
--------------------------------------------------------- ChatGPT ------------------------------------------------------------------
+------ ChatGPT ------
 <img width="1002" height="285" alt="image" src="https://github.com/user-attachments/assets/48b943a3-8112-4135-808a-f9bf80a6a246" />
 <img width="995" height="288" alt="image" src="https://github.com/user-attachments/assets/ff855197-b144-48af-a581-d0a10456e2a9" />
 <img width="1042" height="297" alt="image" src="https://github.com/user-attachments/assets/d8e067be-e170-4299-af74-eb8f1d95993e" />
 <img width="992" height="276" alt="image" src="https://github.com/user-attachments/assets/903ffa1e-423c-460b-adfa-180bbac07e4a" />
------------------------------------------------------------------------------------------------------------------------------------
+------------------------
 
--------------------------------------------------------- Claude ------------------------------------------------------------------
+------- Claude ---------
 <img width="868" height="365" alt="image" src="https://github.com/user-attachments/assets/cc558e74-34dc-4e57-a8f2-557c43d293a3" />
 <img width="890" height="377" alt="image" src="https://github.com/user-attachments/assets/dea67fad-4d8c-4680-9ec6-175f34096874" />
 <img width="875" height="370" alt="image" src="https://github.com/user-attachments/assets/7d101641-62db-44cf-971f-7e8e2d1ac577" />
 <img width="877" height="382" alt="image" src="https://github.com/user-attachments/assets/54761505-24ec-43cf-a83d-04c1bc04d715" />
------------------------------------------------------------------------------------------------------------------------------------
+-------------------------
 
 
 ## What It Does
