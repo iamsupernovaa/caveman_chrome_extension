@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Caveman — AI Brevity Injector",
+  "version": "1.5.0",
+  "description": "Prepends a brevity instruction (Lite / Full / Ultra) to your prompts on ChatGPT and Claude. 100% local. No data leaves your browser.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_title": "Caveman — change mode from the pill in the chat box",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*",
+        "https://claude.ai/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

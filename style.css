@@ -1,0 +1,81 @@
+/* 🪨 Caveman pill — subtle, themed to the host site.
+   Claude → Anthropic coral accent. ChatGPT → OpenAI teal accent.
+   Base state inherits the surrounding toolbar's text color, so it
+   adapts to light/dark themes automatically. */
+
+#caveman-pill {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  align-self: center;
+
+  height: 26px;
+  padding: 0 10px;
+  margin: 0 8px 0 0;
+
+  background: transparent;
+  border: 1px solid rgba(140, 140, 140, 0.35);
+  border-radius: 6px;
+  color: inherit;
+
+  font-family: inherit;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  white-space: nowrap;
+
+  cursor: pointer;
+  user-select: none;
+  opacity: 0.9;
+  transition: border-color 0.15s ease, color 0.15s ease,
+    background-color 0.15s ease, opacity 0.15s ease;
+}
+
+#caveman-pill:hover {
+  border-color: rgba(140, 140, 140, 0.7);
+  opacity: 1;
+}
+
+#caveman-pill:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* OFF = dormant, blends away */
+#caveman-pill[data-mode="off"] {
+  opacity: 0.5 !important;
+  border-style: dashed !important;
+}
+
+/* ---------- Claude theme (coral) ---------- */
+#caveman-pill[data-site="claude"][data-mode="lite"],
+#caveman-pill[data-site="claude"][data-mode="full"] {
+  color: #d97757 !important;
+  border-color: rgba(217, 119, 87, 0.55) !important;
+}
+
+#caveman-pill[data-site="claude"][data-mode="ultra"] {
+  background: #d97757 !important;
+  border-color: #d97757 !important;
+  color: #ffffff !important;
+}
+
+/* ---------- ChatGPT theme (teal) ---------- */
+#caveman-pill[data-site="chatgpt"][data-mode="lite"],
+#caveman-pill[data-site="chatgpt"][data-mode="full"] {
+  color: #10a37f !important;
+  border-color: rgba(16, 163, 127, 0.55) !important;
+}
+
+#caveman-pill[data-site="chatgpt"][data-mode="ultra"] {
+  background: #10a37f !important;
+  border-color: #10a37f !important;
+  color: #ffffff !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #caveman-pill {
+    transition: none;
+  }
+}
