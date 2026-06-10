@@ -9,6 +9,13 @@ It prepends a brevity instruction to your prompt at send time, so the model answ
 Brain still big. Mouth small.
 
 ---
+<img width="1916" height="1088" alt="image" src="https://github.com/user-attachments/assets/2245f72e-fda4-4f3b-9688-f92d674358f8" />
+<img width="995" height="288" alt="image" src="https://github.com/user-attachments/assets/ff855197-b144-48af-a581-d0a10456e2a9" />
+<img width="1042" height="297" alt="image" src="https://github.com/user-attachments/assets/d8e067be-e170-4299-af74-eb8f1d95993e" />
+<img width="992" height="276" alt="image" src="https://github.com/user-attachments/assets/903ffa1e-423c-460b-adfa-180bbac07e4a" />
+
+
+
 
 ## What It Does
 
